@@ -1,0 +1,101 @@
+[
+  {
+    "thumbnail": "https://example.com/images/food-drive.jpg",
+    "title": "Community Food Drive Helpers Needed",
+    "description": "Help us distribute food to low-income families in need.",
+    "category": "Social Service",
+    "location": "Dhaka, Bangladesh",
+    "volunteersNeeded": 10,
+    "deadline": "2025-06-27",
+    "organizerName": "Al Maruf",
+    "organizerEmail": "maruf@example.com"
+  },
+  {
+    "thumbnail": "https://i.ibb.co/D0y12GF/Whats-App-Image-2025-06-27-at-11-45-49-PM.jpg",
+    "title": "Beach Cleanup Volunteers",
+    "description": "Join us to clean up our local beaches and protect marine life.",
+    "category": "Environment",
+    "location": "Cox's Bazar",
+    "volunteersNeeded": 15,
+    "deadline": "2025-06-29",
+    "organizerName": "Al Maruf",
+    "organizerEmail": "maruf@example.com"
+  },
+  {
+    "thumbnail": "https://i.ibb.co/JW3y4NK3/Whats-App-Image-2025-06-27-at-11-45-48-PM.jpg",
+    "title": "Support for Elderly in Care Homes",
+    "description": "Spend time with elderly residents and assist with daily activities.",
+    "category": "Healthcare",
+    "location": "Chittagong",
+    "volunteersNeeded": 8,
+    "deadline": "2025-07-01",
+    "organizerName": "Al Maruf",
+    "organizerEmail": "maruf@example.com"
+  },
+  {
+    "thumbnail": "https://i.ibb.co/dwk58ZDs/Whats-App-Image-2025-06-27-at-11-45-47-PM.jpg",
+    "title": "Book Drive for Underprivileged Schools",
+    "description": "Collect and organize books for donation to rural schools.",
+    "category": "Education",
+    "location": "Sylhet",
+    "volunteersNeeded": 6,
+    "deadline": "2025-07-03",
+    "organizerName": "Al Maruf",
+    "organizerEmail": "maruf@example.com"
+  },
+  {
+    "thumbnail": "https://i.ibb.co/9mJKMV45/Whats-App-Image-2025-06-27-at-11-45-47-PM-1.jpg",
+    "title": "Help at Local Animal Shelter",
+    "description": "Assist in feeding, cleaning, and caring for shelter animals.",
+    "category": "Animal Welfare",
+    "location": "Barisal",
+    "volunteersNeeded": 12,
+    "deadline": "2025-07-05",
+    "organizerName": "Al Maruf",
+    "organizerEmail": "maruf@example.com"
+  },
+  {
+    "thumbnail": "https://i.ibb.co/jv6VZYy8/Whats-App-Image-2025-06-27-at-11-45-46-PM-1.jpg",
+    "title": "Tree Plantation Campaign",
+    "description": "Join our team to plant trees in urban areas.",
+    "category": "Environment",
+    "location": "Rajshahi",
+    "volunteersNeeded": 20,
+    "deadline": "2025-07-10",
+    "organizerName": "Al Maruf",
+    "organizerEmail": "maruf@example.com"
+  },
+  {
+    "thumbnail": "https://i.ibb.co/FqKPQsp8/Whats-App-Image-2025-06-27-at-11-45-47-PM-2.jpg",
+    "title": "Blood Donation Camp Assistants",
+    "description": "Help us organize and assist in a community blood donation event.",
+    "category": "Healthcare",
+    "location": "Khulna",
+    "volunteersNeeded": 5,
+    "deadline": "2025-07-12",
+    "organizerName": "Al Maruf",
+    "organizerEmail": "maruf@example.com"
+  },
+  {
+    "thumbnail": "https://i.ibb.co/h1LHFhq9/Whats-App-Image-2025-06-27-at-11-45-46-PM.jpg",
+    "title": "Teaching Street Kids Basic Literacy",
+    "description": "Volunteer as a mentor to teach reading and writing to street children.",
+    "category": "Education",
+    "location": "Dhaka",
+    "volunteersNeeded": 7,
+    "deadline": "2025-07-15",
+    "organizerName": "Al Maruf",
+    "organizerEmail": "maruf@example.com"
+  },
+  {
+    "thumbnail": "https://i.ibb.co/h1LHFhq9/Whats-App-Image-2025-06-27-at-11-45-46-PM.jpg",
+    "title": "Assist Disabled Youth with Daily Activities",
+    "description": "Join our initiative to support disabled youth with mobility and daily tasks.",
+    "category": "Healthcare",
+    "location": "Mymensingh",
+    "volunteersNeeded": 9,
+    "deadline": "2025-07-18",
+    "organizerName": "Al Maruf",
+    "organizerEmail": "maruf@example.com"
+  }
+]

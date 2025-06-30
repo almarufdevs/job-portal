@@ -32,21 +32,20 @@ const handleRegister =e =>{
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="text-center lg:text-left">
      
-      {/* <Lottie style={{widows:'200px'}} animationData={ registerLottie} loop={true}></Lottie> */}
-      
+    
     </div>
-    <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+    <div className="card  w-full max-w-sm shrink-0 shadow-2xl bg-amber-50">
       <div className="card-body">
          <h1 className="text-5xl font-bold">Ragister now!</h1>
        <form onSubmit={handleRegister}>
 
         <fieldset className="fieldset">
-          <label className="label">Email</label>
+          <label className="label font-bold text-xl">Email</label>
           <input type="email" name='email' className="input" placeholder="Email" />
-          <label className="label">Password</label>
+          <label className="label font-bold text-xl">Password</label>
           <input type="password" name='password' className="input" placeholder="Password" />
-          <div><a className="link link-hover">Forgot password?</a></div>
-          <button className="btn btn-neutral mt-4">Registation</button>
+          <div><a className="link link-hover font-bold text-xl">Forgot password?</a></div>
+          <button className="btn bg-primary text-white text-xl mt-4">Registation</button>
         </fieldset>
        
        

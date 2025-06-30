@@ -1,15 +1,21 @@
-import { use } from 'motion/react-client';
-import React from 'react';
-import { AuthContext } from '../../../Context/AuthContextt';
 
-const Socaillogin = () => {
+import React, { use } from 'react';
+import { AuthContext } from '../../../Context/AuthContextt';
+import { useNavigate } from 'react-router';
+
+
+
+const Socaillogin = ({from}) => {
 
 const  {signInWithGoogle} = use(AuthContext);
+const navigate = useNavigate();
+
 
 const handleGoogleSignIn = () =>{
     signInWithGoogle()
     .then(result =>{
         console.log(result);
+        navigate(from || '/');
     })
     .catch(error =>{
         console.log(error);

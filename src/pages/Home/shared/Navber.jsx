@@ -19,13 +19,19 @@ const Navber = () => {
 
     const links=<>
     
-     <li><NavLink to="/">Home</NavLink></li>
-   
+     <li className='bg-lime-200 rounded-b-md'><NavLink to="/">Home</NavLink></li>
+     {
+      user &&<>
+      <li className='bg-lime-200 rounded-b-md'><NavLink to="/Application">Add volunteer</NavLink></li>
+      </>
+
+     }
+     
     </>
 
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-sm">
+            <div className="navbar bg-gradient-to-b from-amber-100 to-lime-100 shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -37,7 +43,7 @@ const Navber = () => {
         {links}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="logo text-4xl text-red-600">Volunteer<span className='text-green-600'>Hub</span> </a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -46,10 +52,10 @@ const Navber = () => {
   </div>
   <div className="navbar-end">
    {
-     user ? <button onClick={handleSignOut} className='btn'>Sign Out</button> :
+     user ? <button onClick={handleSignOut} className='btn bg-sky-400 text-white'>Sign Out</button> :
      <>
-      <NavLink className= "btn" to="/register">Registation</NavLink>
-    <NavLink className= "btn" to="/signIn">Sign In</NavLink>
+      <NavLink className= "btn bg-sky-400 text-white" to="/register">Registation</NavLink>
+    <NavLink className= "btn bg-sky-400 text-white" to="/signIn">Sign In</NavLink>
     </>
    }
   </div>
